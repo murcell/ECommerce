@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{74455EF4-5616-40B2-AB94-B6209084B9AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{ACAB6130-96B3-493E-8427-7B8EC8A9DA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Catalog", "Services\Catalog\ECommerce.Catalog\ECommerce.Catalog.csproj", "{DF5D7263-F815-4855-886B-4E2B38C48B61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF5D7263-F815-4855-886B-4E2B38C48B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5D7263-F815-4855-886B-4E2B38C48B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5D7263-F815-4855-886B-4E2B38C48B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5D7263-F815-4855-886B-4E2B38C48B61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACAB6130-96B3-493E-8427-7B8EC8A9DA2B} = {74455EF4-5616-40B2-AB94-B6209084B9AA}
+		{DF5D7263-F815-4855-886B-4E2B38C48B61} = {ACAB6130-96B3-493E-8427-7B8EC8A9DA2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EE7E558-F3CD-470A-96CA-CAE5284A4CD1}
+	EndGlobalSection
+EndGlobal
